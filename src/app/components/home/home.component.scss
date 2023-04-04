@@ -22,7 +22,7 @@
 
   .container-content {
     height: 100%;
-    padding: 0 50px;
+    padding: 0 250px;
 
     .container-card {
       display: flex;
@@ -38,7 +38,7 @@
 
     app-cards-schedule,
     app-cards-drivers {
-      width: calc(100% / 5 - 20px);
+      width: calc(100% / 4 - 20px);
       margin: 10px 10px 25px;
       height: 100%;
 
