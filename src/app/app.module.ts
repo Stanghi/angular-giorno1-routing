@@ -10,6 +10,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { CardModule } from 'primeng/card';
 import { CardsDriversComponent } from './components/cards-drivers/cards-drivers.component';
 import { CardsScheduleComponent } from './components/cards-schedule/cards-schedule.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { CardsScheduleComponent } from './components/cards-schedule/cards-schedu
     HeaderComponent,
     CardsDriversComponent,
     CardsScheduleComponent,
+    FooterComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, CardModule],
   providers: [],

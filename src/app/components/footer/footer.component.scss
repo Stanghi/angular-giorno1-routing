@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 250px;
+  background-color: var(--tertiary);
+  color: var(--primary);
+
+  h3 {
+    padding-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+  ul {
+    list-style: none;
+    a {
+      text-decoration: none;
+
+      color: var(--primary);
+
+      &:hover {
+        text-decoration: underline;
+      }
+
+      li {
+        padding-bottom: 10px;
+      }
+    }
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      height: 100px;
+      margin-right: 25px;
+      filter: contrast(0%) brightness(200%);
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
