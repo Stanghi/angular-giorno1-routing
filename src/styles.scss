@@ -3,8 +3,21 @@
 @import "primeng/resources/primeng.css";
 @import "primeicons/primeicons.css";
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #f0edee;
+  --secondary: #042325;
+  --tertiary: #58bc82;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--primary);
 }
 
 .debug {
