@@ -1,8 +1,21 @@
 .header {
+  position: fixed;
   display: flex;
-  justify-content: center;
-  padding: 15px 0;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  padding: 20px 50px;
   background-color: var(--secondary);
+
+  img {
+    height: 100%;
+    margin-right: 25px;
+    filter: contrast(0%) brightness(200%);
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
 
   .links {
     display: flex;
@@ -17,8 +30,8 @@
       color: var(--primary);
 
       &.active {
-        color: var(--tertiary);
-        border-bottom: 2px solid var(--tertiary);
+        color: var(--primary);
+        border-bottom: 2px solid var(--primary);
       }
 
       &:last-child {
