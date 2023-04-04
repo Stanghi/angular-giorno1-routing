@@ -8,7 +8,8 @@ import { AboutComponent } from './components/about/about.component';
 import { ContactsComponent } from './components/contacts/contacts.component';
 import { HeaderComponent } from './components/header/header.component';
 import { CardModule } from 'primeng/card';
-import { CardsComponent } from './components/cards/cards.component';
+import { CardsDriversComponent } from './components/cards-drivers/cards-drivers.component';
+import { CardsScheduleComponent } from './components/cards-schedule/cards-schedule.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { CardsComponent } from './components/cards/cards.component';
     AboutComponent,
     ContactsComponent,
     HeaderComponent,
-    CardsComponent,
+    CardsDriversComponent,
+    CardsScheduleComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, CardModule],
   providers: [],

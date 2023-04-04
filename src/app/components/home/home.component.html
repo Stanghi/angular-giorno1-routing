@@ -6,16 +6,18 @@
   <div class="container-content">
     <h2>Racing schedule</h2>
     <div class="container-card">
-      <app-cards
-        *ngFor="let item of [].constructor(10); let i = index"
-      ></app-cards>
+      <app-cards-schedule
+        *ngFor="let item of dbSchedule"
+        [item]="item"
+      ></app-cards-schedule>
     </div>
 
     <h2>F1 Drivers</h2>
     <div class="container-card">
-      <app-cards
-        *ngFor="let item of [].constructor(10); let i = index"
-      ></app-cards>
+      <app-cards-drivers
+        *ngFor="let item of dbDrivers"
+        [item]="item"
+      ></app-cards-drivers>
     </div>
   </div>
 </div>
